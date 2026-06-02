@@ -9990,15 +9990,15 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20260219*MTL_CLIENT_SILICON-NVR+NN-deployment*f693e2c0dc3ce525f34822f263cc12192ff0722f*f693e2c0dc3ce525f34822f263cc12192ff0722f*f693e2c0dc3
+Version: 20260505*MTL_CLIENT_SILICON-NVR+NN-deployment*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735*3b1e1e826d3
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Feb 19 2026*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202608_npu_release_26ww05-20260206_112046-32016-7-gf693e2c0dc3*f693e2c0dc3ce525f34822f263cc12192ff0722f
+Version: May  5 2026*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202620_npu_release_26ww17-20260422_094127-fc285c23e1bf595d6430660503e8616549c01a34-8-g3b1e1e826d3*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 File: intel/vpu/vpu_50xx_v1.bin
-Version: Feb 19 2026*NPU50xx*build/ci/npu-fw-ci-ci_branch_UD202608_npu_release_26ww05-20260206_112046-32016-7-gf693e2c0dc3*f693e2c0dc3ce525f34822f263cc12192ff0722f
+Version: May  5 2026*NPU50xx*build/ci/npu-fw-ci-ci_branch_UD202620_npu_release_26ww17-20260422_094127-fc285c23e1bf595d6430660503e8616549c01a34-8-g3b1e1e826d3*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735
 Link: intel/vpu/vpu_50xx_v0.0.bin -> vpu_50xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
