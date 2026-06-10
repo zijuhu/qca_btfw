@@ -3491,6 +3491,21 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8365mb - Realtek RTL8365MB/RTL8367S DSA switch driver
+
+File: realtek/rtl8367s-sgmii.bin
+Info: Firmware for the DW8051 microcontroller embedded in the RTL8367S
+      ethernet switch, required to initialize the SerDes for SGMII and
+      HSGMII operation. Extracted from the GPL-licensed Realtek rtl8367c
+      vendor driver as distributed in the Mercusys MR80X v2 GPL source
+      code release, where it is embedded in the driver as data statements.
+      Obtained from https://www.mercusys.com/en/support/gpl-code/?model=MR80X
+      (https://static.mercusys.com/gpl/GPL_MR80Xv2.tar20230105023043.gz)
+
+Licence: GPLv2. See GPL-2.0 for details.
+
+--------------------------------------------------------------------------
+
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
 File: rtl_nic/rtl8168d-1.fw
