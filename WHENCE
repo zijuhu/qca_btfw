@@ -7354,7 +7354,7 @@ RawFile: qcom/x1e80100/LENOVO/21N1/adspr.jsn
 File: qcom/x1e80100/LENOVO/21N1/cdsp_dtbs.elf
 RawFile: qcom/x1e80100/LENOVO/21N1/adsps.jsn
 File: qcom/x1e80100/LENOVO/21N1/qccdsp8380.mbn
-Version: CDSP.HT.2.9-00447-HAMOA-2
+Version: CDSP.HT.2.9.c1-00078-HAMOA-1
 RawFile: qcom/x1e80100/LENOVO/21N1/cdspr.jsn
 RawFile: qcom/x1e80100/LENOVO/21N1/battmgr.jsn
 
