@@ -7180,6 +7180,13 @@ File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
+# Adreno ZAP shaders for ASUS
+File: qcom/x1e80100/ASUSTeK/vivobook-s15/qcdxkmsuc8380.mbn
+File: qcom/x1e80100/ASUSTeK/zenbook-a14/qcdxkmsuc8380.mbn
+File: qcom/x1p42100/ASUSTeK/zenbook-a14/qcdxkmsucpurwa.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+
 # Adreno ZAP shaders for Lenovo
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
@@ -7374,6 +7381,47 @@ Version: CDSP.HT.2.9.c1-00075-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 File: qcom/x1e80100/LENOVO/83ED/cdsp_dtbs.elf
+
+# ASUS Vivobook S 15
+File: qcom/x1e80100/ASUSTeK/vivobook-s15/adsp_dtbs.elf
+File: qcom/x1e80100/ASUSTeK/vivobook-s15/cdsp_dtbs.elf
+File: qcom/x1e80100/ASUSTeK/vivobook-s15/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00806-HAMOA-1
+File: qcom/x1e80100/ASUSTeK/vivobook-s15/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00046-HAMOA-1
+File: qcom/x1e80100/ASUSTeK/vivobook-s15/qcvss8380.mbn
+Version: vfw-3.1:rel0088-d524571ad6a5e8092a933a0fa2a1b22fd0718aeb
+RawFile: qcom/x1e80100/ASUSTeK/vivobook-s15/adspr.jsn
+RawFile: qcom/x1e80100/ASUSTeK/vivobook-s15/adsps.jsn
+RawFile: qcom/x1e80100/ASUSTeK/vivobook-s15/adspua.jsn
+RawFile: qcom/x1e80100/ASUSTeK/vivobook-s15/battmgr.jsn
+RawFile: qcom/x1e80100/ASUSTeK/vivobook-s15/cdspr.jsn
+
+# ASUS Zenbook A14 (UX3407RA)
+File: qcom/x1e80100/ASUSTeK/zenbook-a14/adsp_dtbs.elf
+File: qcom/x1e80100/ASUSTeK/zenbook-a14/cdsp_dtbs.elf
+File: qcom/x1e80100/ASUSTeK/zenbook-a14/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00810-HAMOA-1
+File: qcom/x1e80100/ASUSTeK/zenbook-a14/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00046-HAMOA-1
+RawFile: qcom/x1e80100/ASUSTeK/zenbook-a14/adspr.jsn
+RawFile: qcom/x1e80100/ASUSTeK/zenbook-a14/adsps.jsn
+RawFile: qcom/x1e80100/ASUSTeK/zenbook-a14/adspua.jsn
+RawFile: qcom/x1e80100/ASUSTeK/zenbook-a14/battmgr.jsn
+RawFile: qcom/x1e80100/ASUSTeK/zenbook-a14/cdspr.jsn
+
+# ASUS Zenbook A14 (UX3407QA)
+File: qcom/x1p42100/ASUSTeK/zenbook-a14/adsp_dtbs.elf
+File: qcom/x1p42100/ASUSTeK/zenbook-a14/cdsp_dtbs.elf
+File: qcom/x1p42100/ASUSTeK/zenbook-a14/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00831-HAMOA-1
+File: qcom/x1p42100/ASUSTeK/zenbook-a14/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00079-HAMOA-1
+RawFile: qcom/x1p42100/ASUSTeK/zenbook-a14/adspr.jsn
+RawFile: qcom/x1p42100/ASUSTeK/zenbook-a14/adsps.jsn
+RawFile: qcom/x1p42100/ASUSTeK/zenbook-a14/adspua.jsn
+RawFile: qcom/x1p42100/ASUSTeK/zenbook-a14/battmgr.jsn
+RawFile: qcom/x1p42100/ASUSTeK/zenbook-a14/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
