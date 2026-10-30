@@ -7184,6 +7184,7 @@ Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 File: qcom/x1e80100/hp/omnibook-x14/qcdxkmsuc8380.mbn
 Link: qcom/x1e80100/hp/elitebook-ultra-g1q/qcdxkmsuc8380.mbn -> ../omnibook-x14/qcdxkmsuc8380.mbn
 File: qcom/x1p42100/hp/omnibook-x14/qcdxkmsucpurwa.mbn
+File: qcom/x1p42100/hp/elitebook-6-g1q/qcdxkmsucpurwa.mbn
 
 Licence: Redistributable. See LICENCE.HP and NOTICE.qcom for details
 
@@ -7589,6 +7590,18 @@ File: qcom/x1p42100/hp/omnibook-x14/qcadsp8380.mbn
 Version: ADSP.HT.5.9-00826-HAMOA-1
 File: qcom/x1p42100/hp/omnibook-x14/qccdsp8380.mbn
 Version: CDSP.HT.2.9.c1-00078-HAMOA-1
+# HP EliteBook 6 G1q
+File: qcom/x1p42100/hp/elitebook-6-g1q/adsp_dtbs.elf
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/adspr.jsn
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/adsps.jsn
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/adspua.jsn
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/battmgr.jsn
+File: qcom/x1p42100/hp/elitebook-6-g1q/cdsp_dtbs.elf
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/cdspr.jsn
+File: qcom/x1p42100/hp/elitebook-6-g1q/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00838-HAMOA-1
+File: qcom/x1p42100/hp/elitebook-6-g1q/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00079-HAMOA-1
 
 Licence: Redistributable. See LICENCE.HP and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENCE.HP
