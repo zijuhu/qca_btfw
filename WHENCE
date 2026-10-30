@@ -7180,6 +7180,11 @@ File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
+# Adreno ZAP shaders for Medion
+File: qcom/x1e80100/Medion/sprchrgd-14-s1/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+
 # Adreno ZAP shaders for Lenovo
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
@@ -7374,6 +7379,16 @@ Version: CDSP.HT.2.9.c1-00075-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 File: qcom/x1e80100/LENOVO/83ED/cdsp_dtbs.elf
+
+# Medion SPRCHRGD 14 S1
+File: qcom/x1e80100/Medion/sprchrgd-14-s1/adsp_dtbs.elf
+File: qcom/x1e80100/Medion/sprchrgd-14-s1/cdsp_dtbs.elf
+File: qcom/x1e80100/Medion/sprchrgd-14-s1/qcadsp8380.mbn
+Version: ADSP.HT.5.9.c1-00063-HAMOA-1
+File: qcom/x1e80100/Medion/sprchrgd-14-s1/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c2-00051-HAMOA-1
+File: qcom/x1e80100/Medion/sprchrgd-14-s1/qcvss8380.mbn
+Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
