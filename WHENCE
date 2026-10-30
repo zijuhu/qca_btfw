@@ -7391,6 +7391,17 @@ Version: CDSP.HT.2.9.c1-00079-HAMOA-1
 File: qcom/x1e80100/LENOVO/91B6/qcvss8380.mbn
 Version: vfw-3.1:rel0091-a3f234a2a50e7810b7fea48985cc93f32a6aa8a5
 
+# Lenovo ThinkPad T14s Gen 7
+File: qcom/glymur/LENOVO/22A8/adsp_dtbs.elf
+RawFile: qcom/glymur/LENOVO/22A8/adspr.jsn
+RawFile: qcom/glymur/LENOVO/22A8/adsps.jsn
+RawFile: qcom/glymur/LENOVO/22A8/adspua.jsn
+File: qcom/glymur/LENOVO/22A8/cdsp_dtbs.elf
+File: qcom/glymur/LENOVO/22A8/qcadsp8480.mbn
+Version: LPAIDSP.HT.1.3-00473-GLYMUR-1
+File: qcom/glymur/LENOVO/22A8/qccdsp8480.mbn
+Version: CDSP.HT.3.3-00304-GLYMUR-1
+
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
