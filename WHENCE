@@ -7420,6 +7420,17 @@ RawFile: qcom/x1p42100/Microsoft/Surface12/adspua.jsn
 RawFile: qcom/x1p42100/Microsoft/Surface12/battmgr.jsn
 RawFile: qcom/x1p42100/Microsoft/Surface12/cdspr.jsn
 
+# Microsoft Surface Laptop 8th Edition
+File: qcom/glymur/microsoft/mahua/adsp_dtbs.elf
+RawFile: qcom/glymur/microsoft/mahua/adspr.jsn
+RawFile: qcom/glymur/microsoft/mahua/adsps.jsn
+RawFile: qcom/glymur/microsoft/mahua/adspua.jsn
+File: qcom/glymur/microsoft/mahua/cdsp_dtbs.elf
+File: qcom/glymur/microsoft/mahua/qcadsp8480.mbn
+Version: LPAIDSP.HT.1.3-00476.1-GLYMUR-1
+File: qcom/glymur/microsoft/mahua/qccdsp8480.mbn
+Version: CDSP.HT.3.3-00315-GLYMUR-1
+
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
