@@ -7180,6 +7180,11 @@ File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
+# Adreno ZAP shaders for Honor
+File: qcom/x1e80100/HONOR/MRO-XXX/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+
 # Adreno ZAP shaders for Lenovo
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
@@ -7374,6 +7379,13 @@ Version: CDSP.HT.2.9.c1-00075-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 File: qcom/x1e80100/LENOVO/83ED/cdsp_dtbs.elf
+
+# Honor MagicBook Art 14
+File: qcom/x1e80100/HONOR/MRO-XXX/adsp_dtbs.elf
+File: qcom/x1e80100/HONOR/MRO-XXX/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00773-HAMOA-1
+File: qcom/x1e80100/HONOR/MRO-XXX/qcvss8380.mbn
+Version: vfw-3.1:rel0090-ec9c8b4f5fc7eeb5c1e334363cec9e52a00a09a9
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
