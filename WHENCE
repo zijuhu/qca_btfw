@@ -7180,6 +7180,12 @@ File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
+# Adreno ZAP shaders for HP
+File: qcom/x1e80100/hp/omnibook-x14/qcdxkmsuc8380.mbn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/qcdxkmsuc8380.mbn -> ../omnibook-x14/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENCE.HP and NOTICE.qcom for details
+
 # Adreno ZAP shaders for Lenovo
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
@@ -7548,6 +7554,31 @@ Version: CDSP.HT.2.9.c1-00046-HAMOA-1
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.dell
+
+# HP OmniBook X 14-fe0 and EliteBook Ultra G1q
+File: qcom/x1e80100/hp/omnibook-x14/adsp_dtbs.elf
+RawFile: qcom/x1e80100/hp/omnibook-x14/adspr.jsn
+RawFile: qcom/x1e80100/hp/omnibook-x14/adsps.jsn
+RawFile: qcom/x1e80100/hp/omnibook-x14/adspua.jsn
+RawFile: qcom/x1e80100/hp/omnibook-x14/battmgr.jsn
+File: qcom/x1e80100/hp/omnibook-x14/cdsp_dtbs.elf
+RawFile: qcom/x1e80100/hp/omnibook-x14/cdspr.jsn
+File: qcom/x1e80100/hp/omnibook-x14/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00826-HAMOA-1
+File: qcom/x1e80100/hp/omnibook-x14/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00078-HAMOA-1
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adsp_dtbs.elf -> ../omnibook-x14/adsp_dtbs.elf
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adspr.jsn -> ../omnibook-x14/adspr.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adsps.jsn -> ../omnibook-x14/adsps.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adspua.jsn -> ../omnibook-x14/adspua.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/battmgr.jsn -> ../omnibook-x14/battmgr.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/cdsp_dtbs.elf -> ../omnibook-x14/cdsp_dtbs.elf
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/cdspr.jsn -> ../omnibook-x14/cdspr.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/qcadsp8380.mbn -> ../omnibook-x14/qcadsp8380.mbn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/qccdsp8380.mbn -> ../omnibook-x14/qccdsp8380.mbn
+
+Licence: Redistributable. See LICENCE.HP and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENCE.HP
 
 --------------------------------------------------------------------------
 
