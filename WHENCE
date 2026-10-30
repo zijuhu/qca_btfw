@@ -7184,6 +7184,7 @@ Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
 File: qcom/x1e80100/LENOVO/83ED/qcdxkmsuc8380.mbn
+File: qcom/x1e80100/LENOVO/91B6/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
@@ -7374,6 +7375,21 @@ Version: CDSP.HT.2.9.c1-00075-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 File: qcom/x1e80100/LENOVO/83ED/cdsp_dtbs.elf
+
+# Lenovo IdeaCentre Mini x
+File: qcom/x1e80100/LENOVO/91B6/adsp_dtbs.elf
+RawFile: qcom/x1e80100/LENOVO/91B6/adspr.jsn
+RawFile: qcom/x1e80100/LENOVO/91B6/adsps.jsn
+RawFile: qcom/x1e80100/LENOVO/91B6/adspua.jsn
+RawFile: qcom/x1e80100/LENOVO/91B6/battmgr.jsn
+File: qcom/x1e80100/LENOVO/91B6/cdsp_dtbs.elf
+RawFile: qcom/x1e80100/LENOVO/91B6/cdspr.jsn
+File: qcom/x1e80100/LENOVO/91B6/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00831-HAMOA-1
+File: qcom/x1e80100/LENOVO/91B6/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00079-HAMOA-1
+File: qcom/x1e80100/LENOVO/91B6/qcvss8380.mbn
+Version: vfw-3.1:rel0091-a3f234a2a50e7810b7fea48985cc93f32a6aa8a5
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
