@@ -7180,6 +7180,11 @@ File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
+# Adreno ZAP shaders for Samsung
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+
 # Adreno ZAP shaders for Lenovo
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
@@ -7374,6 +7379,14 @@ Version: CDSP.HT.2.9.c1-00075-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 File: qcom/x1e80100/LENOVO/83ED/cdsp_dtbs.elf
+
+# Samsung Galaxy Book4 Edge
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/adsp_dtbs.elf
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/cdsp_dtbs.elf
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00792-HAMOA-1
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/qccdsp8380.mbn
+Version: CDSP.HT.2.9-00451-HAMOA-1
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
