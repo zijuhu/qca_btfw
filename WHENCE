@@ -7176,6 +7176,9 @@ Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
 # Adreno ZAP shaders for Dell
+File: qcom/x1e80100/dell/inspiron-14-plus-7441/qcdxkmsuc8380.mbn
+Link: qcom/x1e80100/dell/latitude-7455/qcdxkmsuc8380.mbn -> ../inspiron-14-plus-7441/qcdxkmsuc8380.mbn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/qcdxkmsuc8380.mbn -> ../inspiron-14-plus-7441/qcdxkmsuc8380.mbn
 File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
@@ -7533,6 +7536,41 @@ Version: MPSS.JO.4.0-00272-SHIKRA_LWG_PACK-2
 Licence: Redistributable. See LICENSE.qcom-2 and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom-2
 
+# Dell Inspiron 14 Plus 7441 and 5441, Latitude 7455
+File: qcom/x1e80100/dell/inspiron-14-plus-7441/adsp_dtbs.elf
+RawFile: qcom/x1e80100/dell/inspiron-14-plus-7441/adspr.jsn
+RawFile: qcom/x1e80100/dell/inspiron-14-plus-7441/adsps.jsn
+RawFile: qcom/x1e80100/dell/inspiron-14-plus-7441/adspua.jsn
+RawFile: qcom/x1e80100/dell/inspiron-14-plus-7441/battmgr.jsn
+File: qcom/x1e80100/dell/inspiron-14-plus-7441/cdsp_dtbs.elf
+RawFile: qcom/x1e80100/dell/inspiron-14-plus-7441/cdspr.jsn
+File: qcom/x1e80100/dell/inspiron-14-plus-7441/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00838-HAMOA-1
+File: qcom/x1e80100/dell/inspiron-14-plus-7441/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00087-HAMOA-1
+File: qcom/x1e80100/dell/inspiron-14-plus-7441/qcvss8380.mbn
+Version: vfw-3.1:rel00101-27ccbe30d65869af67d0f97d73b2310c65bb49c0
+Link: qcom/x1e80100/dell/latitude-7455/adsp_dtbs.elf -> ../inspiron-14-plus-7441/adsp_dtbs.elf
+Link: qcom/x1e80100/dell/latitude-7455/adspr.jsn -> ../inspiron-14-plus-7441/adspr.jsn
+Link: qcom/x1e80100/dell/latitude-7455/adsps.jsn -> ../inspiron-14-plus-7441/adsps.jsn
+Link: qcom/x1e80100/dell/latitude-7455/adspua.jsn -> ../inspiron-14-plus-7441/adspua.jsn
+Link: qcom/x1e80100/dell/latitude-7455/battmgr.jsn -> ../inspiron-14-plus-7441/battmgr.jsn
+Link: qcom/x1e80100/dell/latitude-7455/cdsp_dtbs.elf -> ../inspiron-14-plus-7441/cdsp_dtbs.elf
+Link: qcom/x1e80100/dell/latitude-7455/cdspr.jsn -> ../inspiron-14-plus-7441/cdspr.jsn
+Link: qcom/x1e80100/dell/latitude-7455/qcadsp8380.mbn -> ../inspiron-14-plus-7441/qcadsp8380.mbn
+Link: qcom/x1e80100/dell/latitude-7455/qccdsp8380.mbn -> ../inspiron-14-plus-7441/qccdsp8380.mbn
+Link: qcom/x1e80100/dell/latitude-7455/qcvss8380.mbn -> ../inspiron-14-plus-7441/qcvss8380.mbn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/adsp_dtbs.elf -> ../inspiron-14-plus-7441/adsp_dtbs.elf
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/adspr.jsn -> ../inspiron-14-plus-7441/adspr.jsn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/adsps.jsn -> ../inspiron-14-plus-7441/adsps.jsn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/adspua.jsn -> ../inspiron-14-plus-7441/adspua.jsn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/battmgr.jsn -> ../inspiron-14-plus-7441/battmgr.jsn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/cdsp_dtbs.elf -> ../inspiron-14-plus-7441/cdsp_dtbs.elf
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/cdspr.jsn -> ../inspiron-14-plus-7441/cdspr.jsn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/qcadsp8380.mbn -> ../inspiron-14-plus-7441/qcadsp8380.mbn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/qccdsp8380.mbn -> ../inspiron-14-plus-7441/qccdsp8380.mbn
+Link: qcom/x1e80100/dell/inspiron-14-plus-5441/qcvss8380.mbn -> ../inspiron-14-plus-7441/qcvss8380.mbn
+
 # Dell XPS13
 File: qcom/x1e80100/dell/xps13-9345/adsp_dtbs.elf
 RawFile: qcom/x1e80100/dell/xps13-9345/adspr.jsn
@@ -7545,6 +7583,8 @@ File: qcom/x1e80100/dell/xps13-9345/qcadsp8380.mbn
 Version: ADSP.HT.5.9-00810-HAMOA-1
 File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
 Version: CDSP.HT.2.9.c1-00046-HAMOA-1
+File: qcom/x1e80100/dell/xps13-9345/qcvss8380.mbn
+Version: vfw-3.1:rel00101-27ccbe30d65869af67d0f97d73b2310c65bb49c0
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.dell
