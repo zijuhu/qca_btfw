@@ -7180,6 +7180,12 @@ File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
+# Adreno ZAP shaders for Microsoft
+File: qcom/x1e80100/microsoft/qcdxkmsuc8380.mbn
+File: qcom/x1p42100/Microsoft/Surface12/qcdxkmsucpurwa.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+
 # Adreno ZAP shaders for Lenovo
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
@@ -7374,6 +7380,56 @@ Version: CDSP.HT.2.9.c1-00075-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 File: qcom/x1e80100/LENOVO/83ED/cdsp_dtbs.elf
+
+# Microsoft Surface Laptop 7
+File: qcom/x1e80100/microsoft/Romulus/adsp_dtbs.elf
+File: qcom/x1e80100/microsoft/Romulus/cdsp_dtbs.elf
+File: qcom/x1e80100/microsoft/Romulus/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00810-HAMOA-1
+File: qcom/x1e80100/microsoft/Romulus/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00078-HAMOA-1
+RawFile: qcom/x1e80100/microsoft/Romulus/adspr.jsn
+RawFile: qcom/x1e80100/microsoft/Romulus/adsps.jsn
+RawFile: qcom/x1e80100/microsoft/Romulus/adspua.jsn
+RawFile: qcom/x1e80100/microsoft/Romulus/battmgr.jsn
+RawFile: qcom/x1e80100/microsoft/Romulus/cdspr.jsn
+
+# Microsoft Surface Pro 11th Edition
+File: qcom/x1e80100/microsoft/Denali/adsp_dtb.mbn
+File: qcom/x1e80100/microsoft/Denali/cdsp_dtb.mbn
+File: qcom/x1e80100/microsoft/Denali/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00810-HAMOA-1
+File: qcom/x1e80100/microsoft/Denali/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00078-HAMOA-1
+RawFile: qcom/x1e80100/microsoft/Denali/adspr.jsn
+RawFile: qcom/x1e80100/microsoft/Denali/adsps.jsn
+RawFile: qcom/x1e80100/microsoft/Denali/adspua.jsn
+RawFile: qcom/x1e80100/microsoft/Denali/battmgr.jsn
+RawFile: qcom/x1e80100/microsoft/Denali/cdspr.jsn
+
+# Microsoft Surface Pro 12-inch 1st Edition
+File: qcom/x1p42100/Microsoft/Surface12/adsp_dtbs.elf
+File: qcom/x1p42100/Microsoft/Surface12/cdsp_dtbs.elf
+File: qcom/x1p42100/Microsoft/Surface12/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00810-HAMOA-1
+File: qcom/x1p42100/Microsoft/Surface12/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00079-HAMOA-1
+RawFile: qcom/x1p42100/Microsoft/Surface12/adspr.jsn
+RawFile: qcom/x1p42100/Microsoft/Surface12/adsps.jsn
+RawFile: qcom/x1p42100/Microsoft/Surface12/adspua.jsn
+RawFile: qcom/x1p42100/Microsoft/Surface12/battmgr.jsn
+RawFile: qcom/x1p42100/Microsoft/Surface12/cdspr.jsn
+
+# Microsoft Surface Laptop 8th Edition
+File: qcom/glymur/microsoft/mahua/adsp_dtbs.elf
+RawFile: qcom/glymur/microsoft/mahua/adspr.jsn
+RawFile: qcom/glymur/microsoft/mahua/adsps.jsn
+RawFile: qcom/glymur/microsoft/mahua/adspua.jsn
+File: qcom/glymur/microsoft/mahua/cdsp_dtbs.elf
+File: qcom/glymur/microsoft/mahua/qcadsp8480.mbn
+Version: LPAIDSP.HT.1.3-00476.1-GLYMUR-1
+File: qcom/glymur/microsoft/mahua/qccdsp8480.mbn
+Version: CDSP.HT.3.3-00315-GLYMUR-1
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
